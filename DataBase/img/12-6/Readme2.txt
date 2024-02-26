@@ -1,0 +1,7 @@
+CREATE USER 'replica'@'192.168.0.23' IDENTIFIED WITH caching_sha2_password BY '12345';
+GRANT REPLICATION SLAVE ON *.* TO 'replica'@'192.168.0.23';
+
+             File: mysql-bin.000001
+         Position: 1279
+		 
+CHANGE MASTER TO MASTER_HOST='192.168.0.24',MASTER_USER='repl',MASTER_PASSWORD='12345',MASTER_LOG_FILE='mysql-bin.000009',MASTER_LOG_POS=660;

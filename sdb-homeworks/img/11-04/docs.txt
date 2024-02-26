@@ -1,0 +1,10 @@
+apt install curl ставим кюрл
+
+хуячим две команды:
+curl -s https://packagecloud.io/install/repositories/rabbitmq/rabbitmq-server/script.deb.sh | sudo bash
+
+curl -s https://packagecloud.io/install/repositories/rabbitmq/erlang/script.deb.sh | sudo bash
+
+устанавливаем поебень
+apt install rabbitmq-server
+
