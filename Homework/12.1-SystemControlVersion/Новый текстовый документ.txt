@@ -1,3 +1,0 @@
-$ git remote -v
-origin  https://github.com/Ualadislav/devops-netology (fetch)
-origin  https://github.com/Ualadislav/devops-netology (push)
