@@ -4,23 +4,31 @@
 
 ### Задание Ветвление, merge и rebase
 
-Установите Prometheus.
+Создадим коммит с описанием prepare for merge and rebase и отправим его в ветку main.
 
-*Приведите скриншот systemctl status prometheus, где будет написано: prometheus.service — Prometheus Service Netology Lesson 9.4 — [Ваши ФИО].*
 
 ![](./3/3_4_prepare_for_merge_and_rebase.png)
+
+
+Если всё было сделано правильно, то на странице network в GitHub, находящейся по адресу https://github.com/ВАШ_ЛОГИН/ВАШ_РЕПОЗИТОРИЙ/network, будет примерно такая схема:
 
 
 ![](./3/3_4_itog.png)
 
 
-![](./3/3_4_del_marks.png)
+Полученный конфликт:
 
 
 ![](./3/3_4_conflict.png)
 
 
+Удалим метки, отдав предпочтение варианту:
+
+
 ![](./3/3_4_del_marks.png)
+
+
+Теперь можно смержить ветку git-rebase в main без конфликтов и без дополнительного мерж-комита простой перемоткой:
 
 
 ![](./3/3_4_git-merge_git-rebase.png)
