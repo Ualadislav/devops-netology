@@ -33,4 +33,3 @@
 
 ![](./3/3_4_git-merge_git-rebase.png)
 
----
